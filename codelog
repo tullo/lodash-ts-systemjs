@@ -1,0 +1,12 @@
+typings install lodash -S
+
+// creates file typings.json
+
+1. tsc
+2. serve
+2. http://localhost:3000/
+3. console.log => true
+
+// lodash get's loaded by systemjs
+// lodash is mapped to a CDN version of the js lib and fetched on every page load/refresh
+// ?? how to cache the request ??
